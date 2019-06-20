@@ -21,4 +21,5 @@ const config = {
   }
 };
 
+console.log('Configuring to domain:', config.serverUri);
 fs.writeFileSync('config.json', JSON.stringify(config, null, 2), 'utf8');
